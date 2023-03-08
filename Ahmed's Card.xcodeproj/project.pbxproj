@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EFC7B5C329B82FCA0054F774 /* ClimateCrisis-Regular-VariableFont_YEAR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFC7B5C229B82FCA0054F774 /* ClimateCrisis-Regular-VariableFont_YEAR.ttf */; };
+		EFC7B5C429B830210054F774 /* Oswald-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFD5F75D29B81AF2007CFF08 /* Oswald-VariableFont_wght.ttf */; };
+		EFC7B5C829B84A3F0054F774 /* cardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC7B5C729B84A3F0054F774 /* cardInfo.swift */; };
 		EFD5F74F29B818A0007CFF08 /* Ahmed_s_CardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD5F74E29B818A0007CFF08 /* Ahmed_s_CardApp.swift */; };
 		EFD5F75129B818A0007CFF08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD5F75029B818A0007CFF08 /* ContentView.swift */; };
 		EFD5F75329B818A8007CFF08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD5F75229B818A8007CFF08 /* Assets.xcassets */; };
@@ -14,11 +17,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EFC7B5C229B82FCA0054F774 /* ClimateCrisis-Regular-VariableFont_YEAR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClimateCrisis-Regular-VariableFont_YEAR.ttf"; sourceTree = "<group>"; };
+		EFC7B5C729B84A3F0054F774 /* cardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardInfo.swift; sourceTree = "<group>"; };
 		EFD5F74B29B818A0007CFF08 /* Ahmed's Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ahmed's Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD5F74E29B818A0007CFF08 /* Ahmed_s_CardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ahmed_s_CardApp.swift; sourceTree = "<group>"; };
 		EFD5F75029B818A0007CFF08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFD5F75229B818A8007CFF08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFD5F75529B818A8007CFF08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFD5F75D29B81AF2007CFF08 /* Oswald-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		EFD5F75E29B81E7E007CFF08 /* Ahmed-s-Card-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Ahmed-s-Card-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +58,11 @@
 		EFD5F74D29B818A0007CFF08 /* Ahmed's Card */ = {
 			isa = PBXGroup;
 			children = (
+				EFD5F75E29B81E7E007CFF08 /* Ahmed-s-Card-Info.plist */,
+				EFD5F75C29B81AE1007CFF08 /* Fonts */,
 				EFD5F74E29B818A0007CFF08 /* Ahmed_s_CardApp.swift */,
 				EFD5F75029B818A0007CFF08 /* ContentView.swift */,
+				EFC7B5C729B84A3F0054F774 /* cardInfo.swift */,
 				EFD5F75229B818A8007CFF08 /* Assets.xcassets */,
 				EFD5F75429B818A8007CFF08 /* Preview Content */,
 			);
@@ -65,6 +75,15 @@
 				EFD5F75529B818A8007CFF08 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFD5F75C29B81AE1007CFF08 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EFC7B5C229B82FCA0054F774 /* ClimateCrisis-Regular-VariableFont_YEAR.ttf */,
+				EFD5F75D29B81AF2007CFF08 /* Oswald-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFD5F75629B818A8007CFF08 /* Preview Assets.xcassets in Resources */,
+				EFC7B5C429B830210054F774 /* Oswald-VariableFont_wght.ttf in Resources */,
+				EFC7B5C329B82FCA0054F774 /* ClimateCrisis-Regular-VariableFont_YEAR.ttf in Resources */,
 				EFD5F75329B818A8007CFF08 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC7B5C829B84A3F0054F774 /* cardInfo.swift in Sources */,
 				EFD5F75129B818A0007CFF08 /* ContentView.swift in Sources */,
 				EFD5F74F29B818A0007CFF08 /* Ahmed_s_CardApp.swift in Sources */,
 			);
@@ -270,6 +292,7 @@
 				DEVELOPMENT_TEAM = 376L6GYCXP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ahmed-s-Card-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +322,7 @@
 				DEVELOPMENT_TEAM = 376L6GYCXP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ahmed-s-Card-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
